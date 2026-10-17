@@ -1,0 +1,506 @@
+{
+  "purpose": "M0 source candidates only; not a runtime catalogue or a support claim",
+  "cs2Revision": "736e78d4c4260ba2a9d8ce3d2d665a98185de42e",
+  "source": "https://raw.githubusercontent.com/runelite/cs2-scripts/736e78d4c4260ba2a9d8ce3d2d665a98185de42e/scripts/%5Bproc%2Ccollection_category_count%5D.cs2",
+  "sourceSha256": "902a7650bf276865ca841998197a75dd9a52c1e67a7a90ecc4fdbd93884c13e0",
+  "runtimeValidation": "PENDING",
+  "entries": [
+    {
+      "metricId": "ABYSSAL_SIRE",
+      "candidatePageStructId": 476,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "ALCHEMICAL_HYDRA",
+      "candidatePageStructId": 539,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "AMOXLIATL",
+      "candidatePageStructId": 1016,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "ARAXXOR",
+      "candidatePageStructId": 995,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "ARTIO",
+      "candidatePageStructId": 479,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "BARROWS_CHESTS",
+      "candidatePageStructId": 477,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "BRUTUS",
+      "candidatePageStructId": 6413,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "BRYOPHYTA",
+      "candidatePageStructId": 478,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "CALLISTO",
+      "candidatePageStructId": 479,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "CALVARION",
+      "candidatePageStructId": 502,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "CERBERUS",
+      "candidatePageStructId": 480,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "CHAMBERS_OF_XERIC",
+      "candidatePageStructId": 507,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "CHAMBERS_OF_XERIC_CHALLENGE_MODE",
+      "candidatePageStructId": 507,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "CHAOS_ELEMENTAL",
+      "candidatePageStructId": 481,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "CHAOS_FANATIC",
+      "candidatePageStructId": 482,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "COMMANDER_ZILYANA",
+      "candidatePageStructId": 483,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "CORPOREAL_BEAST",
+      "candidatePageStructId": 484,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "CRAZY_ARCHAEOLOGIST",
+      "candidatePageStructId": 485,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "DAGANNOTH_PRIME",
+      "candidatePageStructId": 486,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "DAGANNOTH_REX",
+      "candidatePageStructId": 486,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "DAGANNOTH_SUPREME",
+      "candidatePageStructId": 486,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "DERANGED_ARCHAEOLOGIST",
+      "candidatePageStructId": 4867,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "DOOM_OF_MOKHAIOTL",
+      "candidatePageStructId": 5029,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "DUKE_SUCELLUS",
+      "candidatePageStructId": 4652,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "GENERAL_GRAARDOR",
+      "candidatePageStructId": 487,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "GIANT_MOLE",
+      "candidatePageStructId": 488,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "GROTESQUE_GUARDIANS",
+      "candidatePageStructId": 489,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "HESPORI",
+      "candidatePageStructId": 541,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "KALPHITE_QUEEN",
+      "candidatePageStructId": 490,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "KING_BLACK_DRAGON",
+      "candidatePageStructId": 491,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "KRAKEN",
+      "candidatePageStructId": 492,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "KREEARRA",
+      "candidatePageStructId": 493,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "KRIL_TSUTSAROTH",
+      "candidatePageStructId": 494,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "LUNAR_CHESTS",
+      "candidatePageStructId": 910,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "MAD_ANGEL",
+      "candidatePageStructId": 1203,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "MAGGOT_KING",
+      "candidatePageStructId": 1189,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "MIMIC",
+      "candidatePageStructId": null,
+      "status": "UNRESOLVED",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Reward eligibility needs a dedicated audit; no standalone page established"
+    },
+    {
+      "metricId": "NEX",
+      "candidatePageStructId": 3769,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "NIGHTMARE",
+      "candidatePageStructId": 1263,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "PHOSANIS_NIGHTMARE",
+      "candidatePageStructId": 1263,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "OBOR",
+      "candidatePageStructId": 495,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "PHANTOM_MUSPAH",
+      "candidatePageStructId": 4455,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "SARACHNIS",
+      "candidatePageStructId": 601,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "SCORPIA",
+      "candidatePageStructId": 496,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "SCURRIUS",
+      "candidatePageStructId": 777,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "SHELLBANE_GRYPHON",
+      "candidatePageStructId": 6337,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "SKOTIZO",
+      "candidatePageStructId": 497,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "SOL_HEREDIT",
+      "candidatePageStructId": 909,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "SPINDEL",
+      "candidatePageStructId": 501,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "TEMPOROSS",
+      "candidatePageStructId": 2867,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "THE_GAUNTLET",
+      "candidatePageStructId": 605,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "THE_CORRUPTED_GAUNTLET",
+      "candidatePageStructId": 605,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "THE_HUEYCOATL",
+      "candidatePageStructId": 1015,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "THE_LEVIATHAN",
+      "candidatePageStructId": 4655,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "THE_ROYAL_TITANS",
+      "candidatePageStructId": 1743,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "THE_WHISPERER",
+      "candidatePageStructId": 4654,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "THEATRE_OF_BLOOD",
+      "candidatePageStructId": 506,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "THEATRE_OF_BLOOD_HARD_MODE",
+      "candidatePageStructId": 506,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "THERMONUCLEAR_SMOKE_DEVIL",
+      "candidatePageStructId": 498,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "TOMBS_OF_AMASCUT",
+      "candidatePageStructId": 4378,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "TOMBS_OF_AMASCUT_EXPERT",
+      "candidatePageStructId": 4378,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "TZKAL_ZUK",
+      "candidatePageStructId": 499,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "TZTOK_JAD",
+      "candidatePageStructId": 500,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "VARDORVIS",
+      "candidatePageStructId": 4653,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "VENENATIS",
+      "candidatePageStructId": 501,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "VETION",
+      "candidatePageStructId": 502,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "VORKATH",
+      "candidatePageStructId": 503,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "WINTERTODT",
+      "candidatePageStructId": 504,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "YAMA",
+      "candidatePageStructId": 4736,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "ZALCANO",
+      "candidatePageStructId": 604,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    },
+    {
+      "metricId": "ZULRAH",
+      "candidatePageStructId": 505,
+      "status": "CS2_PAGE_CANDIDATE",
+      "eligibleCanonicalItemKeys": null,
+      "note": "Validate page and per-boss eligible subset in current cache"
+    }
+  ]
+}

@@ -1,0 +1,6136 @@
+{
+  "version": "game-241-uniques-2",
+  "gameRevision": 241,
+  "runeLiteVersion": "1.13.2",
+  "cacheDefinitionSha256": "1855ede0f295faabaaab374e2e769f552c67657ddc39e3ca063e770d19ca8ec1",
+  "sourceRuneLiteRevision": "e98399f931c60bfa8e42f924da850f508ec8e00d",
+  "sourceCs2Revision": "736e78d4c4260ba2a9d8ce3d2d665a98185de42e",
+  "reviewStatus": "Static cache and mode mappings reviewed; live acquisition uses explicit source adapters and collection-log verification.",
+  "wikiCrossCheck": {
+    "status": "PARTIAL_INDEXED_REVIEW; direct full-page access blocked",
+    "indexes": [
+      "https://oldschool.runescape.wiki/w/Boss",
+      "https://oldschool.runescape.wiki/w/Raids"
+    ],
+    "repeatableCoxRewardEvidence": "https://oldschool.runescape.wiki/w/Update:Chambers_of_Xeric_Improvements",
+    "note": "The May 2020 update permits repeat metamorphic dust and one ancestral kit per recoloured piece. Neither is limited to one target."
+  },
+  "bosses": [
+    {
+      "metricId": "ABYSSAL_SIRE",
+      "pageIds": [
+        476
+      ],
+      "itemIds": [
+        13262,
+        13273,
+        7979,
+        13274,
+        13275,
+        13276,
+        13277,
+        13265,
+        4151
+      ]
+    },
+    {
+      "metricId": "ALCHEMICAL_HYDRA",
+      "pageIds": [
+        539
+      ],
+      "itemIds": [
+        22746,
+        22966,
+        22988,
+        22983,
+        22971,
+        22973,
+        22969,
+        22804,
+        20849,
+        23064,
+        23077
+      ]
+    },
+    {
+      "metricId": "AMOXLIATL",
+      "pageIds": [
+        1016
+      ],
+      "itemIds": [
+        30154,
+        29889,
+        29892,
+        29895
+      ]
+    },
+    {
+      "metricId": "ARAXXOR",
+      "pageIds": [
+        995
+      ],
+      "itemIds": [
+        29836,
+        29784,
+        29782,
+        29799,
+        29790,
+        29792,
+        29794,
+        29788,
+        29786,
+        29781
+      ]
+    },
+    {
+      "metricId": "ARTIO",
+      "pageIds": [
+        479
+      ],
+      "itemIds": [
+        13178,
+        12603,
+        11920,
+        7158,
+        27667,
+        27681
+      ]
+    },
+    {
+      "metricId": "BARROWS_CHESTS",
+      "pageIds": [
+        477
+      ],
+      "itemIds": [
+        4732,
+        4708,
+        4716,
+        4724,
+        4745,
+        4753,
+        4736,
+        4712,
+        4720,
+        4728,
+        4749,
+        4757,
+        4738,
+        4714,
+        4722,
+        4730,
+        4751,
+        4759,
+        4734,
+        4710,
+        4718,
+        4726,
+        4747,
+        4755,
+        4740
+      ]
+    },
+    {
+      "metricId": "BRUTUS",
+      "pageIds": [
+        6413
+      ],
+      "itemIds": [
+        33124,
+        33101,
+        33091,
+        33093
+      ]
+    },
+    {
+      "metricId": "BRYOPHYTA",
+      "pageIds": [
+        478
+      ],
+      "itemIds": [
+        22372
+      ]
+    },
+    {
+      "metricId": "CALLISTO",
+      "pageIds": [
+        479
+      ],
+      "itemIds": [
+        13178,
+        12603,
+        11920,
+        7158,
+        27667,
+        27681
+      ]
+    },
+    {
+      "metricId": "CALVARION",
+      "pageIds": [
+        502
+      ],
+      "itemIds": [
+        13179,
+        12601,
+        11920,
+        7158,
+        27673,
+        27684
+      ]
+    },
+    {
+      "metricId": "CERBERUS",
+      "pageIds": [
+        480
+      ],
+      "itemIds": [
+        13247,
+        13227,
+        13229,
+        13231,
+        13245,
+        13233,
+        13249
+      ]
+    },
+    {
+      "metricId": "CHAMBERS_OF_XERIC",
+      "pageIds": [
+        507
+      ],
+      "itemIds": [
+        20851,
+        20997,
+        21003,
+        21043,
+        13652,
+        21018,
+        21021,
+        21024,
+        21015,
+        21034,
+        21079,
+        21012,
+        21000,
+        21047,
+        21027,
+        6573
+      ]
+    },
+    {
+      "metricId": "CHAMBERS_OF_XERIC_CHALLENGE_MODE",
+      "pageIds": [
+        507
+      ],
+      "itemIds": [
+        20851,
+        22386,
+        20997,
+        21003,
+        21043,
+        13652,
+        21018,
+        21021,
+        21024,
+        21015,
+        21034,
+        21079,
+        21012,
+        21000,
+        21047,
+        21027,
+        6573,
+        24670,
+        22388,
+        22390,
+        22392,
+        22394,
+        22396
+      ]
+    },
+    {
+      "metricId": "CHAOS_ELEMENTAL",
+      "pageIds": [
+        481
+      ],
+      "itemIds": [
+        11995,
+        11920,
+        7158
+      ]
+    },
+    {
+      "metricId": "CHAOS_FANATIC",
+      "pageIds": [
+        482
+      ],
+      "itemIds": [
+        11995,
+        11928,
+        11931
+      ]
+    },
+    {
+      "metricId": "COMMANDER_ZILYANA",
+      "pageIds": [
+        483
+      ],
+      "itemIds": [
+        12651,
+        11785,
+        11814,
+        11838,
+        13256,
+        11818,
+        11820,
+        11822
+      ]
+    },
+    {
+      "metricId": "CORPOREAL_BEAST",
+      "pageIds": [
+        484
+      ],
+      "itemIds": [
+        12816,
+        12819,
+        12823,
+        12827,
+        12833,
+        12829,
+        25521
+      ]
+    },
+    {
+      "metricId": "CRAZY_ARCHAEOLOGIST",
+      "pageIds": [
+        485
+      ],
+      "itemIds": [
+        11929,
+        11932,
+        11990
+      ]
+    },
+    {
+      "metricId": "DAGANNOTH_PRIME",
+      "pageIds": [
+        486
+      ],
+      "itemIds": [
+        12644,
+        6731,
+        6739,
+        6562
+      ]
+    },
+    {
+      "metricId": "DAGANNOTH_REX",
+      "pageIds": [
+        486
+      ],
+      "itemIds": [
+        12645,
+        6737,
+        6735,
+        6739
+      ]
+    },
+    {
+      "metricId": "DAGANNOTH_SUPREME",
+      "pageIds": [
+        486
+      ],
+      "itemIds": [
+        12643,
+        6733,
+        6739,
+        6724
+      ]
+    },
+    {
+      "metricId": "DERANGED_ARCHAEOLOGIST",
+      "pageIds": [
+        4867
+      ],
+      "itemIds": [
+        30895
+      ]
+    },
+    {
+      "metricId": "DOOM_OF_MOKHAIOTL",
+      "pageIds": [
+        5029
+      ],
+      "itemIds": [
+        31130,
+        31088,
+        31115,
+        31109,
+        31099,
+        31111
+      ]
+    },
+    {
+      "metricId": "DUKE_SUCELLUS",
+      "pageIds": [
+        4652
+      ],
+      "itemIds": [
+        28250,
+        28321,
+        26241,
+        26243,
+        26245,
+        28281,
+        28270,
+        28333,
+        28276,
+        28334
+      ]
+    },
+    {
+      "metricId": "GENERAL_GRAARDOR",
+      "pageIds": [
+        487
+      ],
+      "itemIds": [
+        12650,
+        11832,
+        11834,
+        11836,
+        11812,
+        11818,
+        11820,
+        11822
+      ]
+    },
+    {
+      "metricId": "GIANT_MOLE",
+      "pageIds": [
+        488
+      ],
+      "itemIds": [
+        12646,
+        7418,
+        7416,
+        33382
+      ]
+    },
+    {
+      "metricId": "GROTESQUE_GUARDIANS",
+      "pageIds": [
+        489
+      ],
+      "itemIds": [
+        21748,
+        21730,
+        21736,
+        21739,
+        21742,
+        21745,
+        21726
+      ]
+    },
+    {
+      "metricId": "HESPORI",
+      "pageIds": [
+        541
+      ],
+      "itemIds": [
+        22994,
+        22883,
+        22885,
+        22881
+      ]
+    },
+    {
+      "metricId": "KALPHITE_QUEEN",
+      "pageIds": [
+        490
+      ],
+      "itemIds": [
+        12647,
+        7981,
+        12885,
+        7158,
+        3140,
+        11920
+      ]
+    },
+    {
+      "metricId": "KING_BLACK_DRAGON",
+      "pageIds": [
+        491
+      ],
+      "itemIds": [
+        12653,
+        7980,
+        11920,
+        11286
+      ]
+    },
+    {
+      "metricId": "KRAKEN",
+      "pageIds": [
+        492
+      ],
+      "itemIds": [
+        12655,
+        12004,
+        11905,
+        12007
+      ]
+    },
+    {
+      "metricId": "KREEARRA",
+      "pageIds": [
+        493
+      ],
+      "itemIds": [
+        12649,
+        11826,
+        11828,
+        11830,
+        11810,
+        11818,
+        11820,
+        11822
+      ]
+    },
+    {
+      "metricId": "KRIL_TSUTSAROTH",
+      "pageIds": [
+        494
+      ],
+      "itemIds": [
+        12652,
+        11791,
+        11824,
+        11787,
+        11816,
+        11818,
+        11820,
+        11822
+      ]
+    },
+    {
+      "metricId": "LUNAR_CHESTS",
+      "pageIds": [
+        910
+      ],
+      "itemIds": [
+        29004,
+        29007,
+        29010,
+        29000,
+        29013,
+        29016,
+        29019,
+        28988,
+        29022,
+        29025,
+        29028,
+        28997,
+        28991
+      ]
+    },
+    {
+      "metricId": "MAD_ANGEL",
+      "pageIds": [
+        1203
+      ],
+      "itemIds": [
+        34042,
+        34027,
+        34033,
+        21726,
+        34030
+      ]
+    },
+    {
+      "metricId": "MAGGOT_KING",
+      "pageIds": [
+        1189
+      ],
+      "itemIds": [
+        33642,
+        33631,
+        33634
+      ]
+    },
+    {
+      "metricId": "MIMIC",
+      "pageIds": [
+        511,
+        512,
+        2871,
+        4874
+      ],
+      "itemIds": [
+        23185,
+        20014,
+        20011,
+        12426,
+        12422,
+        12437,
+        12424,
+        10334,
+        10330,
+        10332,
+        10336,
+        10338,
+        10340,
+        10342,
+        10344,
+        23242,
+        10346,
+        10348,
+        10350,
+        10352,
+        23339,
+        23336,
+        23342,
+        23345,
+        30926
+      ]
+    },
+    {
+      "metricId": "NEX",
+      "pageIds": [
+        3769
+      ],
+      "itemIds": [
+        26348,
+        26370,
+        26372,
+        26235,
+        26376,
+        26378,
+        26380,
+        26231
+      ]
+    },
+    {
+      "metricId": "NIGHTMARE",
+      "pageIds": [
+        1263
+      ],
+      "itemIds": [
+        24491,
+        24417,
+        24419,
+        24420,
+        24421,
+        24422,
+        24514,
+        24511,
+        24517,
+        24495
+      ]
+    },
+    {
+      "metricId": "PHOSANIS_NIGHTMARE",
+      "pageIds": [
+        1263
+      ],
+      "itemIds": [
+        24491,
+        24417,
+        24419,
+        24420,
+        24421,
+        24422,
+        24514,
+        24511,
+        24517,
+        24495,
+        25837,
+        25838
+      ]
+    },
+    {
+      "metricId": "OBOR",
+      "pageIds": [
+        495
+      ],
+      "itemIds": [
+        20756
+      ]
+    },
+    {
+      "metricId": "PHANTOM_MUSPAH",
+      "pageIds": [
+        4455
+      ],
+      "itemIds": [
+        27590,
+        27614,
+        27627,
+        27643,
+        27622,
+        27616
+      ]
+    },
+    {
+      "metricId": "SARACHNIS",
+      "pageIds": [
+        601
+      ],
+      "itemIds": [
+        23495,
+        23525,
+        23517,
+        23528,
+        33133
+      ]
+    },
+    {
+      "metricId": "SCORPIA",
+      "pageIds": [
+        496
+      ],
+      "itemIds": [
+        13181,
+        11930,
+        11933,
+        7158
+      ]
+    },
+    {
+      "metricId": "SCURRIUS",
+      "pageIds": [
+        777
+      ],
+      "itemIds": [
+        28801,
+        28798
+      ]
+    },
+    {
+      "metricId": "SHELLBANE_GRYPHON",
+      "pageIds": [
+        6337
+      ],
+      "itemIds": [
+        31285,
+        32921,
+        31245,
+        31235
+      ]
+    },
+    {
+      "metricId": "SKOTIZO",
+      "pageIds": [
+        497
+      ],
+      "itemIds": [
+        21273,
+        19701,
+        21275,
+        19685,
+        6571,
+        19677
+      ]
+    },
+    {
+      "metricId": "SOL_HEREDIT",
+      "pageIds": [
+        909
+      ],
+      "itemIds": [
+        28960,
+        28947,
+        28936,
+        28939,
+        28933,
+        28942,
+        28919,
+        28924,
+        6571
+      ]
+    },
+    {
+      "metricId": "SPINDEL",
+      "pageIds": [
+        501
+      ],
+      "itemIds": [
+        13177,
+        12605,
+        11920,
+        7158,
+        27670,
+        27687
+      ]
+    },
+    {
+      "metricId": "TEMPOROSS",
+      "pageIds": [
+        2867
+      ],
+      "itemIds": [
+        25602,
+        25559,
+        25592,
+        25594,
+        25596,
+        25598,
+        25576,
+        25578,
+        25580,
+        25582,
+        21028,
+        25588
+      ]
+    },
+    {
+      "metricId": "THE_GAUNTLET",
+      "pageIds": [
+        605
+      ],
+      "itemIds": [
+        23757,
+        23956,
+        4207,
+        25859
+      ]
+    },
+    {
+      "metricId": "THE_CORRUPTED_GAUNTLET",
+      "pageIds": [
+        605
+      ],
+      "itemIds": [
+        23757,
+        23956,
+        4207,
+        25859,
+        23859
+      ]
+    },
+    {
+      "metricId": "THE_HUEYCOATL",
+      "pageIds": [
+        1015
+      ],
+      "itemIds": [
+        30152,
+        30070,
+        30066,
+        30068,
+        30085,
+        30088
+      ]
+    },
+    {
+      "metricId": "THE_LEVIATHAN",
+      "pageIds": [
+        4655
+      ],
+      "itemIds": [
+        28252,
+        28325,
+        26241,
+        26243,
+        26245,
+        28283,
+        28274,
+        28332,
+        28276,
+        28334
+      ]
+    },
+    {
+      "metricId": "THE_ROYAL_TITANS",
+      "pageIds": [
+        1743
+      ],
+      "itemIds": [
+        30622,
+        30626,
+        30627,
+        30637,
+        30628,
+        30631,
+        30640
+      ]
+    },
+    {
+      "metricId": "THE_WHISPERER",
+      "pageIds": [
+        4654
+      ],
+      "itemIds": [
+        28246,
+        28323,
+        26241,
+        26243,
+        26245,
+        28279,
+        28272,
+        28331,
+        28276,
+        28334
+      ]
+    },
+    {
+      "metricId": "THEATRE_OF_BLOOD",
+      "pageIds": [
+        506
+      ],
+      "itemIds": [
+        22473,
+        22486,
+        22324,
+        22481,
+        22326,
+        22327,
+        22328,
+        22477,
+        22446,
+        22494,
+        22496,
+        22498,
+        22500,
+        22502
+      ]
+    },
+    {
+      "metricId": "THEATRE_OF_BLOOD_HARD_MODE",
+      "pageIds": [
+        506
+      ],
+      "itemIds": [
+        22473,
+        22486,
+        22324,
+        22481,
+        22326,
+        22327,
+        22328,
+        22477,
+        22446,
+        22494,
+        22496,
+        22498,
+        22500,
+        22502,
+        25746,
+        25742,
+        25744
+      ]
+    },
+    {
+      "metricId": "THERMONUCLEAR_SMOKE_DEVIL",
+      "pageIds": [
+        498
+      ],
+      "itemIds": [
+        12648,
+        12002,
+        11998,
+        3140,
+        25524
+      ]
+    },
+    {
+      "metricId": "TOMBS_OF_AMASCUT",
+      "pageIds": [
+        4378
+      ],
+      "itemIds": [
+        27352,
+        27277,
+        25985,
+        27226,
+        27229,
+        27232,
+        25975,
+        26219,
+        27279,
+        27283,
+        27285,
+        27289,
+        30893,
+        27293,
+        27257,
+        27259,
+        27261,
+        27263,
+        27265
+      ]
+    },
+    {
+      "metricId": "TOMBS_OF_AMASCUT_EXPERT",
+      "pageIds": [
+        4378
+      ],
+      "itemIds": [
+        27352,
+        27277,
+        25985,
+        27226,
+        27229,
+        27232,
+        25975,
+        26219,
+        27279,
+        27283,
+        27285,
+        27289,
+        30893,
+        27255,
+        27248,
+        27372,
+        27293,
+        27257,
+        27259,
+        27261,
+        27263,
+        27265,
+        27377,
+        27378,
+        27379,
+        27380,
+        27381
+      ]
+    },
+    {
+      "metricId": "TZKAL_ZUK",
+      "pageIds": [
+        499
+      ],
+      "itemIds": [
+        21291,
+        21295
+      ]
+    },
+    {
+      "metricId": "TZTOK_JAD",
+      "pageIds": [
+        500
+      ],
+      "itemIds": [
+        13225,
+        6570
+      ]
+    },
+    {
+      "metricId": "VARDORVIS",
+      "pageIds": [
+        4653
+      ],
+      "itemIds": [
+        28248,
+        28319,
+        26241,
+        26243,
+        26245,
+        28285,
+        28268,
+        28330,
+        28276,
+        28334
+      ]
+    },
+    {
+      "metricId": "VENENATIS",
+      "pageIds": [
+        501
+      ],
+      "itemIds": [
+        13177,
+        12605,
+        11920,
+        7158,
+        27670,
+        27687
+      ]
+    },
+    {
+      "metricId": "VETION",
+      "pageIds": [
+        502
+      ],
+      "itemIds": [
+        13179,
+        12601,
+        11920,
+        7158,
+        27673,
+        27684
+      ]
+    },
+    {
+      "metricId": "VORKATH",
+      "pageIds": [
+        503
+      ],
+      "itemIds": [
+        21992,
+        21907,
+        11286,
+        22006,
+        22106,
+        22111
+      ]
+    },
+    {
+      "metricId": "WINTERTODT",
+      "pageIds": [
+        504
+      ],
+      "itemIds": [
+        20693,
+        20716,
+        20718,
+        20704,
+        20708,
+        20706,
+        20710,
+        20712,
+        20720,
+        6739
+      ]
+    },
+    {
+      "metricId": "YAMA",
+      "pageIds": [
+        4736
+      ],
+      "itemIds": [
+        30888,
+        30775,
+        30765,
+        30750,
+        30753,
+        30756,
+        30759,
+        30806,
+        30763,
+        30803,
+        30795
+      ]
+    },
+    {
+      "metricId": "ZALCANO",
+      "pageIds": [
+        604
+      ],
+      "itemIds": [
+        23760,
+        23953,
+        23908,
+        6571
+      ]
+    },
+    {
+      "metricId": "ZULRAH",
+      "pageIds": [
+        505
+      ],
+      "itemIds": [
+        12921,
+        13200,
+        13201,
+        12936,
+        12932,
+        12927,
+        12922,
+        12938,
+        6571,
+        12934
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "structId": 476,
+      "name": "Abyssal Sire",
+      "itemEnumId": 2109,
+      "itemIds": [
+        13262,
+        13273,
+        7979,
+        13274,
+        13275,
+        13276,
+        13277,
+        13265,
+        4151
+      ]
+    },
+    {
+      "structId": 477,
+      "name": "Barrows Chests",
+      "itemEnumId": 2110,
+      "itemIds": [
+        4732,
+        4708,
+        4716,
+        4724,
+        4745,
+        4753,
+        4736,
+        4712,
+        4720,
+        4728,
+        4749,
+        4757,
+        4738,
+        4714,
+        4722,
+        4730,
+        4751,
+        4759,
+        4734,
+        4710,
+        4718,
+        4726,
+        4747,
+        4755,
+        4740
+      ]
+    },
+    {
+      "structId": 478,
+      "name": "Bryophyta",
+      "itemEnumId": 2111,
+      "itemIds": [
+        22372
+      ]
+    },
+    {
+      "structId": 479,
+      "name": "Callisto and Artio",
+      "itemEnumId": 2112,
+      "itemIds": [
+        13178,
+        12603,
+        11920,
+        7158,
+        27667,
+        27681
+      ]
+    },
+    {
+      "structId": 480,
+      "name": "Cerberus",
+      "itemEnumId": 2113,
+      "itemIds": [
+        13247,
+        13227,
+        13229,
+        13231,
+        13245,
+        13233,
+        13249
+      ]
+    },
+    {
+      "structId": 481,
+      "name": "Chaos Elemental",
+      "itemEnumId": 2114,
+      "itemIds": [
+        11995,
+        11920,
+        7158
+      ]
+    },
+    {
+      "structId": 482,
+      "name": "Chaos Fanatic",
+      "itemEnumId": 2115,
+      "itemIds": [
+        11995,
+        11928,
+        11931
+      ]
+    },
+    {
+      "structId": 483,
+      "name": "Commander Zilyana",
+      "itemEnumId": 2116,
+      "itemIds": [
+        12651,
+        11785,
+        11814,
+        11838,
+        13256,
+        11818,
+        11820,
+        11822
+      ]
+    },
+    {
+      "structId": 484,
+      "name": "Corporeal Beast",
+      "itemEnumId": 2117,
+      "itemIds": [
+        12816,
+        12819,
+        12823,
+        12827,
+        12833,
+        12829,
+        25521
+      ]
+    },
+    {
+      "structId": 485,
+      "name": "Crazy Archaeologist",
+      "itemEnumId": 2118,
+      "itemIds": [
+        11929,
+        11932,
+        11990
+      ]
+    },
+    {
+      "structId": 486,
+      "name": "Dagannoth Kings",
+      "itemEnumId": 2119,
+      "itemIds": [
+        12644,
+        12643,
+        12645,
+        6737,
+        6733,
+        6731,
+        6735,
+        6739,
+        6724,
+        6562
+      ]
+    },
+    {
+      "structId": 487,
+      "name": "General Graardor",
+      "itemEnumId": 2120,
+      "itemIds": [
+        12650,
+        11832,
+        11834,
+        11836,
+        11812,
+        11818,
+        11820,
+        11822
+      ]
+    },
+    {
+      "structId": 488,
+      "name": "Giant Mole",
+      "itemEnumId": 2121,
+      "itemIds": [
+        12646,
+        7418,
+        7416,
+        33382
+      ]
+    },
+    {
+      "structId": 489,
+      "name": "Grotesque Guardians",
+      "itemEnumId": 2122,
+      "itemIds": [
+        21748,
+        21730,
+        21736,
+        21739,
+        21742,
+        21745,
+        21726
+      ]
+    },
+    {
+      "structId": 490,
+      "name": "Kalphite Queen",
+      "itemEnumId": 2123,
+      "itemIds": [
+        12647,
+        7981,
+        12885,
+        7158,
+        3140,
+        11920
+      ]
+    },
+    {
+      "structId": 491,
+      "name": "King Black Dragon",
+      "itemEnumId": 2124,
+      "itemIds": [
+        12653,
+        7980,
+        11920,
+        11286
+      ]
+    },
+    {
+      "structId": 492,
+      "name": "Kraken",
+      "itemEnumId": 2125,
+      "itemIds": [
+        12655,
+        12004,
+        11905,
+        12007
+      ]
+    },
+    {
+      "structId": 493,
+      "name": "Kree'arra",
+      "itemEnumId": 2126,
+      "itemIds": [
+        12649,
+        11826,
+        11828,
+        11830,
+        11810,
+        11818,
+        11820,
+        11822
+      ]
+    },
+    {
+      "structId": 494,
+      "name": "K'ril Tsutsaroth",
+      "itemEnumId": 2127,
+      "itemIds": [
+        12652,
+        11791,
+        11824,
+        11787,
+        11816,
+        11818,
+        11820,
+        11822
+      ]
+    },
+    {
+      "structId": 495,
+      "name": "Obor",
+      "itemEnumId": 2128,
+      "itemIds": [
+        20756
+      ]
+    },
+    {
+      "structId": 496,
+      "name": "Scorpia",
+      "itemEnumId": 2129,
+      "itemIds": [
+        13181,
+        11930,
+        11933,
+        7158
+      ]
+    },
+    {
+      "structId": 497,
+      "name": "Skotizo",
+      "itemEnumId": 2130,
+      "itemIds": [
+        21273,
+        19701,
+        21275,
+        19685,
+        6571,
+        19677
+      ]
+    },
+    {
+      "structId": 498,
+      "name": "Thermonuclear Smoke Devil",
+      "itemEnumId": 2131,
+      "itemIds": [
+        12648,
+        12002,
+        11998,
+        3140,
+        25524
+      ]
+    },
+    {
+      "structId": 499,
+      "name": "The Inferno",
+      "itemEnumId": 2132,
+      "itemIds": [
+        21291,
+        21295
+      ]
+    },
+    {
+      "structId": 500,
+      "name": "The Fight Caves",
+      "itemEnumId": 2133,
+      "itemIds": [
+        13225,
+        6570
+      ]
+    },
+    {
+      "structId": 501,
+      "name": "Venenatis and Spindel",
+      "itemEnumId": 2134,
+      "itemIds": [
+        13177,
+        12605,
+        11920,
+        7158,
+        27670,
+        27687
+      ]
+    },
+    {
+      "structId": 502,
+      "name": "Vet'ion and Calvar'ion",
+      "itemEnumId": 2135,
+      "itemIds": [
+        13179,
+        12601,
+        11920,
+        7158,
+        27673,
+        27684
+      ]
+    },
+    {
+      "structId": 503,
+      "name": "Vorkath",
+      "itemEnumId": 2136,
+      "itemIds": [
+        21992,
+        21907,
+        11286,
+        22006,
+        22106,
+        22111
+      ]
+    },
+    {
+      "structId": 504,
+      "name": "Wintertodt",
+      "itemEnumId": 2137,
+      "itemIds": [
+        20693,
+        20716,
+        20718,
+        20704,
+        20708,
+        20706,
+        20710,
+        20712,
+        20720,
+        6739
+      ]
+    },
+    {
+      "structId": 505,
+      "name": "Zulrah",
+      "itemEnumId": 2138,
+      "itemIds": [
+        12921,
+        13200,
+        13201,
+        12936,
+        12932,
+        12927,
+        12922,
+        12938,
+        6571,
+        12934
+      ]
+    },
+    {
+      "structId": 506,
+      "name": "Theatre of Blood",
+      "itemEnumId": 2140,
+      "itemIds": [
+        22473,
+        22486,
+        22324,
+        22481,
+        22326,
+        22327,
+        22328,
+        22477,
+        22446,
+        22494,
+        22496,
+        22498,
+        22500,
+        22502,
+        25746,
+        25742,
+        25744
+      ]
+    },
+    {
+      "structId": 507,
+      "name": "Chambers of Xeric",
+      "itemEnumId": 2139,
+      "itemIds": [
+        20851,
+        22386,
+        20997,
+        21003,
+        21043,
+        13652,
+        21018,
+        21021,
+        21024,
+        21015,
+        21034,
+        21079,
+        21012,
+        21000,
+        21047,
+        21027,
+        6573,
+        24670,
+        22388,
+        22390,
+        22392,
+        22394,
+        22396
+      ]
+    },
+    {
+      "structId": 511,
+      "name": "Elite Treasure Trails",
+      "itemEnumId": 2144,
+      "itemIds": [
+        23185,
+        12526,
+        12534,
+        12536,
+        12532,
+        12538,
+        20002,
+        12530,
+        12528,
+        19997,
+        19994,
+        12596,
+        23249,
+        12381,
+        12383,
+        12385,
+        12387,
+        12397,
+        12439,
+        12393,
+        12395,
+        12351,
+        12441,
+        12443,
+        19958,
+        19964,
+        19967,
+        19961,
+        19970,
+        19973,
+        19979,
+        19982,
+        19976,
+        19985,
+        19943,
+        19946,
+        19952,
+        19955,
+        19949,
+        12363,
+        12365,
+        12367,
+        12369,
+        23270,
+        23273,
+        12357,
+        12373,
+        12335,
+        19991,
+        19988,
+        12540,
+        12430,
+        12355,
+        12432,
+        12353,
+        12337,
+        23246,
+        23252,
+        23255
+      ]
+    },
+    {
+      "structId": 512,
+      "name": "Master Treasure Trails",
+      "itemEnumId": 2145,
+      "itemIds": [
+        19730,
+        23185,
+        20068,
+        20071,
+        20074,
+        20077,
+        20065,
+        20062,
+        22246,
+        20143,
+        22239,
+        22236,
+        23348,
+        20128,
+        20131,
+        20137,
+        20134,
+        20140,
+        20035,
+        20038,
+        20044,
+        20047,
+        20041,
+        20095,
+        20098,
+        20101,
+        20107,
+        20104,
+        20080,
+        20092,
+        20086,
+        20089,
+        20083,
+        20125,
+        20116,
+        20113,
+        20122,
+        20119,
+        20020,
+        20023,
+        20026,
+        20032,
+        20029,
+        19724,
+        20110,
+        20056,
+        20050,
+        20053,
+        20008
+      ]
+    },
+    {
+      "structId": 539,
+      "name": "Alchemical Hydra",
+      "itemEnumId": 2173,
+      "itemIds": [
+        22746,
+        22966,
+        22988,
+        22983,
+        22971,
+        22973,
+        22969,
+        22804,
+        20849,
+        23064,
+        23077
+      ]
+    },
+    {
+      "structId": 541,
+      "name": "Hespori",
+      "itemEnumId": 2175,
+      "itemIds": [
+        22994,
+        22883,
+        22885,
+        22881
+      ]
+    },
+    {
+      "structId": 601,
+      "name": "Sarachnis",
+      "itemEnumId": 2344,
+      "itemIds": [
+        23495,
+        23525,
+        23517,
+        23528,
+        33133
+      ]
+    },
+    {
+      "structId": 604,
+      "name": "Zalcano",
+      "itemEnumId": 2389,
+      "itemIds": [
+        23760,
+        23953,
+        23908,
+        6571
+      ]
+    },
+    {
+      "structId": 605,
+      "name": "The Gauntlet",
+      "itemEnumId": 2390,
+      "itemIds": [
+        23757,
+        23956,
+        4207,
+        25859,
+        23859
+      ]
+    },
+    {
+      "structId": 777,
+      "name": "Scurrius",
+      "itemEnumId": 909,
+      "itemIds": [
+        28801,
+        28798
+      ]
+    },
+    {
+      "structId": 909,
+      "name": "Fortis Colosseum",
+      "itemEnumId": 5414,
+      "itemIds": [
+        28960,
+        28947,
+        28936,
+        28939,
+        28933,
+        28942,
+        28919,
+        28924,
+        6571
+      ]
+    },
+    {
+      "structId": 910,
+      "name": "Moons of Peril",
+      "itemEnumId": 5413,
+      "itemIds": [
+        29004,
+        29007,
+        29010,
+        29000,
+        29013,
+        29016,
+        29019,
+        28988,
+        29022,
+        29025,
+        29028,
+        28997,
+        28991
+      ]
+    },
+    {
+      "structId": 995,
+      "name": "Araxxor",
+      "itemEnumId": 4218,
+      "itemIds": [
+        29836,
+        29784,
+        29782,
+        29799,
+        29790,
+        29792,
+        29794,
+        29788,
+        29786,
+        29781
+      ]
+    },
+    {
+      "structId": 1015,
+      "name": "The Hueycoatl",
+      "itemEnumId": 5526,
+      "itemIds": [
+        30152,
+        30070,
+        30066,
+        30068,
+        30085,
+        30088
+      ]
+    },
+    {
+      "structId": 1016,
+      "name": "Amoxliatl",
+      "itemEnumId": 5528,
+      "itemIds": [
+        30154,
+        29889,
+        29892,
+        29895
+      ]
+    },
+    {
+      "structId": 1189,
+      "name": "Maggot King",
+      "itemEnumId": 5202,
+      "itemIds": [
+        33642,
+        33631,
+        33634
+      ]
+    },
+    {
+      "structId": 1203,
+      "name": "The Mad Angel",
+      "itemEnumId": 5837,
+      "itemIds": [
+        34042,
+        34027,
+        34033,
+        21726,
+        34030
+      ]
+    },
+    {
+      "structId": 1263,
+      "name": "The Nightmare",
+      "itemEnumId": 2796,
+      "itemIds": [
+        24491,
+        24417,
+        24419,
+        24420,
+        24421,
+        24422,
+        24514,
+        24511,
+        24517,
+        24495,
+        25837,
+        25838
+      ]
+    },
+    {
+      "structId": 1743,
+      "name": "Royal Titans",
+      "itemEnumId": 3337,
+      "itemIds": [
+        30622,
+        30626,
+        30627,
+        30637,
+        30628,
+        30631,
+        30640
+      ]
+    },
+    {
+      "structId": 2867,
+      "name": "Tempoross",
+      "itemEnumId": 3714,
+      "itemIds": [
+        25602,
+        25559,
+        25592,
+        25594,
+        25596,
+        25598,
+        25576,
+        25578,
+        25580,
+        25582,
+        21028,
+        25588
+      ]
+    },
+    {
+      "structId": 2871,
+      "name": "Master Treasure Trails (Rare)",
+      "itemEnumId": 3724,
+      "itemIds": [
+        20014,
+        20011,
+        12426,
+        12422,
+        12437,
+        12424,
+        10334,
+        10330,
+        10332,
+        10336,
+        10338,
+        10340,
+        10342,
+        10344,
+        23242,
+        10346,
+        10348,
+        10350,
+        10352,
+        23339,
+        23336,
+        23342,
+        23345,
+        12389,
+        12391,
+        3481,
+        3483,
+        3485,
+        3486,
+        3488,
+        20146,
+        20149,
+        20152,
+        20155,
+        20158,
+        20161,
+        23258,
+        23261,
+        23264,
+        23267,
+        23276,
+        23279,
+        23282,
+        20059,
+        20017
+      ]
+    },
+    {
+      "structId": 3769,
+      "name": "Nex",
+      "itemEnumId": 4097,
+      "itemIds": [
+        26348,
+        26370,
+        26372,
+        26235,
+        26376,
+        26378,
+        26380,
+        26231
+      ]
+    },
+    {
+      "structId": 4378,
+      "name": "Tombs of Amascut",
+      "itemEnumId": 4805,
+      "itemIds": [
+        27352,
+        27277,
+        25985,
+        27226,
+        27229,
+        27232,
+        25975,
+        26219,
+        27279,
+        27283,
+        27285,
+        27289,
+        30893,
+        27255,
+        27248,
+        27372,
+        27293,
+        27257,
+        27259,
+        27261,
+        27263,
+        27265,
+        27377,
+        27378,
+        27379,
+        27380,
+        27381
+      ]
+    },
+    {
+      "structId": 4455,
+      "name": "Phantom Muspah",
+      "itemEnumId": 4929,
+      "itemIds": [
+        27590,
+        27614,
+        27627,
+        27643,
+        27622,
+        27616
+      ]
+    },
+    {
+      "structId": 4652,
+      "name": "Duke Sucellus",
+      "itemEnumId": 5148,
+      "itemIds": [
+        28250,
+        28321,
+        26241,
+        26243,
+        26245,
+        28281,
+        28270,
+        28333,
+        28276,
+        28334
+      ]
+    },
+    {
+      "structId": 4653,
+      "name": "Vardorvis",
+      "itemEnumId": 5149,
+      "itemIds": [
+        28248,
+        28319,
+        26241,
+        26243,
+        26245,
+        28285,
+        28268,
+        28330,
+        28276,
+        28334
+      ]
+    },
+    {
+      "structId": 4654,
+      "name": "The Whisperer",
+      "itemEnumId": 5150,
+      "itemIds": [
+        28246,
+        28323,
+        26241,
+        26243,
+        26245,
+        28279,
+        28272,
+        28331,
+        28276,
+        28334
+      ]
+    },
+    {
+      "structId": 4655,
+      "name": "The Leviathan",
+      "itemEnumId": 5151,
+      "itemIds": [
+        28252,
+        28325,
+        26241,
+        26243,
+        26245,
+        28283,
+        28274,
+        28332,
+        28276,
+        28334
+      ]
+    },
+    {
+      "structId": 4736,
+      "name": "Yama",
+      "itemEnumId": 824,
+      "itemIds": [
+        30888,
+        30775,
+        30765,
+        30750,
+        30753,
+        30756,
+        30759,
+        30806,
+        30763,
+        30803,
+        30795
+      ]
+    },
+    {
+      "structId": 4867,
+      "name": "Deranged Archaeologist",
+      "itemEnumId": 3605,
+      "itemIds": [
+        30895
+      ]
+    },
+    {
+      "structId": 4874,
+      "name": "Scroll Cases",
+      "itemEnumId": 3607,
+      "itemIds": [
+        30902,
+        30904,
+        30906,
+        30908,
+        30910,
+        30912,
+        30914,
+        30916,
+        30918,
+        30920,
+        30922,
+        30924,
+        30926
+      ]
+    },
+    {
+      "structId": 5029,
+      "name": "Doom of Mokhaiotl",
+      "itemEnumId": 5219,
+      "itemIds": [
+        31130,
+        31088,
+        31115,
+        31109,
+        31099,
+        31111
+      ]
+    },
+    {
+      "structId": 6337,
+      "name": "Shellbane Gryphon",
+      "itemEnumId": 5776,
+      "itemIds": [
+        31285,
+        32921,
+        31245,
+        31235
+      ]
+    },
+    {
+      "structId": 6413,
+      "name": "Brutus",
+      "itemEnumId": 5912,
+      "itemIds": [
+        33124,
+        33101,
+        33091,
+        33093
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 3140,
+      "name": "Dragon chainbody",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        490,
+        498
+      ]
+    },
+    {
+      "id": 4151,
+      "name": "Abyssal whip",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        476
+      ]
+    },
+    {
+      "id": 4207,
+      "name": "Crystal weapon seed",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        605
+      ]
+    },
+    {
+      "id": 4708,
+      "name": "Ahrim's hood",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4710,
+      "name": "Ahrim's staff",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4712,
+      "name": "Ahrim's robetop",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4714,
+      "name": "Ahrim's robeskirt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4716,
+      "name": "Dharok's helm",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4718,
+      "name": "Dharok's greataxe",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4720,
+      "name": "Dharok's platebody",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4722,
+      "name": "Dharok's platelegs",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4724,
+      "name": "Guthan's helm",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4726,
+      "name": "Guthan's warspear",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4728,
+      "name": "Guthan's platebody",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4730,
+      "name": "Guthan's chainskirt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4732,
+      "name": "Karil's coif",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4734,
+      "name": "Karil's crossbow",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4736,
+      "name": "Karil's leathertop",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4738,
+      "name": "Karil's leatherskirt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4740,
+      "name": "Bolt rack",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4745,
+      "name": "Torag's helm",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4747,
+      "name": "Torag's hammers",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4749,
+      "name": "Torag's platebody",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4751,
+      "name": "Torag's platelegs",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4753,
+      "name": "Verac's helm",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4755,
+      "name": "Verac's flail",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4757,
+      "name": "Verac's brassard",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 4759,
+      "name": "Verac's plateskirt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        477
+      ]
+    },
+    {
+      "id": 6562,
+      "name": "Mud battlestaff",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        486
+      ]
+    },
+    {
+      "id": 6570,
+      "name": "Fire cape",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        500
+      ]
+    },
+    {
+      "id": 6571,
+      "name": "Uncut onyx",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        497,
+        505,
+        604,
+        909
+      ]
+    },
+    {
+      "id": 6573,
+      "name": "Onyx",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 6724,
+      "name": "Seercull",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        486
+      ]
+    },
+    {
+      "id": 6731,
+      "name": "Seers ring",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        486
+      ]
+    },
+    {
+      "id": 6733,
+      "name": "Archers ring",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        486
+      ]
+    },
+    {
+      "id": 6735,
+      "name": "Warrior ring",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        486
+      ]
+    },
+    {
+      "id": 6737,
+      "name": "Berserker ring",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        486
+      ]
+    },
+    {
+      "id": 6739,
+      "name": "Dragon axe",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        486,
+        504
+      ]
+    },
+    {
+      "id": 7158,
+      "name": "Dragon 2h sword",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        479,
+        481,
+        490,
+        496,
+        501,
+        502
+      ]
+    },
+    {
+      "id": 7416,
+      "name": "Mole claw",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        488
+      ]
+    },
+    {
+      "id": 7418,
+      "name": "Mole skin",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        488
+      ]
+    },
+    {
+      "id": 7979,
+      "name": "Abyssal head",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        476
+      ]
+    },
+    {
+      "id": 7980,
+      "name": "Kbd heads",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        491
+      ]
+    },
+    {
+      "id": 7981,
+      "name": "Kq head",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        490
+      ]
+    },
+    {
+      "id": 10330,
+      "name": "3rd Age range top",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 10332,
+      "name": "3rd Age range legs",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 10334,
+      "name": "3rd Age range coif",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 10336,
+      "name": "3rd Age vambraces",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 10338,
+      "name": "3rd Age robe top",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 10340,
+      "name": "3rd Age robe",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 10342,
+      "name": "3rd Age mage hat",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 10344,
+      "name": "3rd Age amulet",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 10346,
+      "name": "3rd Age platelegs",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 10348,
+      "name": "3rd Age platebody",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 10350,
+      "name": "3rd Age full helmet",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 10352,
+      "name": "3rd Age kiteshield",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 11286,
+      "name": "Draconic visage",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        491,
+        503
+      ]
+    },
+    {
+      "id": 11785,
+      "name": "Armadyl crossbow",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        483
+      ]
+    },
+    {
+      "id": 11787,
+      "name": "Steam battlestaff",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        494
+      ]
+    },
+    {
+      "id": 11791,
+      "name": "Staff of the Dead",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        494
+      ]
+    },
+    {
+      "id": 11810,
+      "name": "Armadyl hilt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        493
+      ]
+    },
+    {
+      "id": 11812,
+      "name": "Bandos hilt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        487
+      ]
+    },
+    {
+      "id": 11814,
+      "name": "Saradomin hilt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        483
+      ]
+    },
+    {
+      "id": 11816,
+      "name": "Zamorak hilt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        494
+      ]
+    },
+    {
+      "id": 11818,
+      "name": "Godsword shard 1",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        483,
+        487,
+        493,
+        494
+      ]
+    },
+    {
+      "id": 11820,
+      "name": "Godsword shard 2",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        483,
+        487,
+        493,
+        494
+      ]
+    },
+    {
+      "id": 11822,
+      "name": "Godsword shard 3",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        483,
+        487,
+        493,
+        494
+      ]
+    },
+    {
+      "id": 11824,
+      "name": "Zamorakian spear",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        494
+      ]
+    },
+    {
+      "id": 11826,
+      "name": "Armadyl helmet",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        493
+      ]
+    },
+    {
+      "id": 11828,
+      "name": "Armadyl chestplate",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        493
+      ]
+    },
+    {
+      "id": 11830,
+      "name": "Armadyl chainskirt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        493
+      ]
+    },
+    {
+      "id": 11832,
+      "name": "Bandos chestplate",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        487
+      ]
+    },
+    {
+      "id": 11834,
+      "name": "Bandos tassets",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        487
+      ]
+    },
+    {
+      "id": 11836,
+      "name": "Bandos boots",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        487
+      ]
+    },
+    {
+      "id": 11838,
+      "name": "Saradomin sword",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        483
+      ]
+    },
+    {
+      "id": 11905,
+      "name": "Trident of the Seas (full)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        492
+      ]
+    },
+    {
+      "id": 11920,
+      "name": "Dragon pickaxe",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        479,
+        481,
+        490,
+        491,
+        501,
+        502
+      ]
+    },
+    {
+      "id": 11928,
+      "name": "Odium shard 1",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        482
+      ]
+    },
+    {
+      "id": 11929,
+      "name": "Odium shard 2",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        485
+      ]
+    },
+    {
+      "id": 11930,
+      "name": "Odium shard 3",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        496
+      ]
+    },
+    {
+      "id": 11931,
+      "name": "Malediction shard 1",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        482
+      ]
+    },
+    {
+      "id": 11932,
+      "name": "Malediction shard 2",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        485
+      ]
+    },
+    {
+      "id": 11933,
+      "name": "Malediction shard 3",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        496
+      ]
+    },
+    {
+      "id": 11990,
+      "name": "Fedora",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        485
+      ]
+    },
+    {
+      "id": 11995,
+      "name": "Pet chaos elemental",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        481,
+        482
+      ]
+    },
+    {
+      "id": 11998,
+      "name": "Smoke battlestaff",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        498
+      ]
+    },
+    {
+      "id": 12002,
+      "name": "Occult necklace",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        498
+      ]
+    },
+    {
+      "id": 12004,
+      "name": "Kraken tentacle",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        492
+      ]
+    },
+    {
+      "id": 12007,
+      "name": "Jar of Dirt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        492
+      ]
+    },
+    {
+      "id": 12422,
+      "name": "3rd Age wand",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 12424,
+      "name": "3rd Age bow",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 12426,
+      "name": "3rd Age longsword",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 12437,
+      "name": "3rd Age cloak",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 12601,
+      "name": "Ring of the gods",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        502
+      ]
+    },
+    {
+      "id": 12603,
+      "name": "Tyrannical ring",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        479
+      ]
+    },
+    {
+      "id": 12605,
+      "name": "Treasonous ring",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        501
+      ]
+    },
+    {
+      "id": 12643,
+      "name": "Pet Dagannoth Supreme",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        486
+      ]
+    },
+    {
+      "id": 12644,
+      "name": "Pet Dagannoth Prime",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        486
+      ]
+    },
+    {
+      "id": 12645,
+      "name": "Pet Dagannoth Rex",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        486
+      ]
+    },
+    {
+      "id": 12646,
+      "name": "Baby Mole",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        488
+      ]
+    },
+    {
+      "id": 12647,
+      "name": "Kalphite Princess",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        490
+      ]
+    },
+    {
+      "id": 12648,
+      "name": "Pet Smoke Devil",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        498
+      ]
+    },
+    {
+      "id": 12649,
+      "name": "Pet Kree'arra",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        493
+      ]
+    },
+    {
+      "id": 12650,
+      "name": "Pet General Graardor",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        487
+      ]
+    },
+    {
+      "id": 12651,
+      "name": "Pet Zilyana",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        483
+      ]
+    },
+    {
+      "id": 12652,
+      "name": "Pet K'ril Tsutsaroth",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        494
+      ]
+    },
+    {
+      "id": 12653,
+      "name": "Prince Black Dragon",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        491
+      ]
+    },
+    {
+      "id": 12655,
+      "name": "Pet Kraken",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        492
+      ]
+    },
+    {
+      "id": 12816,
+      "name": "Pet dark core",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        484
+      ]
+    },
+    {
+      "id": 12819,
+      "name": "Elysian sigil",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        484
+      ]
+    },
+    {
+      "id": 12823,
+      "name": "Spectral sigil",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        484
+      ]
+    },
+    {
+      "id": 12827,
+      "name": "Arcane sigil",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        484
+      ]
+    },
+    {
+      "id": 12829,
+      "name": "Spirit shield",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        484
+      ]
+    },
+    {
+      "id": 12833,
+      "name": "Holy elixir",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        484
+      ]
+    },
+    {
+      "id": 12885,
+      "name": "Jar of Sand",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        490
+      ]
+    },
+    {
+      "id": 12921,
+      "name": "Pet Snakeling",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        505
+      ]
+    },
+    {
+      "id": 12922,
+      "name": "Tanzanite fang",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        505
+      ]
+    },
+    {
+      "id": 12927,
+      "name": "Serpentine visage",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        505
+      ]
+    },
+    {
+      "id": 12932,
+      "name": "Magic fang",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        505
+      ]
+    },
+    {
+      "id": 12934,
+      "name": "Zulrah's scales",
+      "pet": false,
+      "targetLimit": 65535,
+      "pageIds": [
+        505
+      ]
+    },
+    {
+      "id": 12936,
+      "name": "Jar of Swamp",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        505
+      ]
+    },
+    {
+      "id": 12938,
+      "name": "Zul-andra teleport",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        505
+      ]
+    },
+    {
+      "id": 13177,
+      "name": "Venenatis spiderling",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        501
+      ]
+    },
+    {
+      "id": 13178,
+      "name": "Callisto cub",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        479
+      ]
+    },
+    {
+      "id": 13179,
+      "name": "Vet'ion jr.",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        502
+      ]
+    },
+    {
+      "id": 13181,
+      "name": "Scorpia's offspring",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        496
+      ]
+    },
+    {
+      "id": 13200,
+      "name": "Tanzanite mutagen",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        505
+      ]
+    },
+    {
+      "id": 13201,
+      "name": "Magma mutagen",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        505
+      ]
+    },
+    {
+      "id": 13225,
+      "name": "TzRek-Jad",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        500
+      ]
+    },
+    {
+      "id": 13227,
+      "name": "Eternal crystal",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        480
+      ]
+    },
+    {
+      "id": 13229,
+      "name": "Pegasian crystal",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        480
+      ]
+    },
+    {
+      "id": 13231,
+      "name": "Primordial crystal",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        480
+      ]
+    },
+    {
+      "id": 13233,
+      "name": "Smouldering stone",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        480
+      ]
+    },
+    {
+      "id": 13245,
+      "name": "Jar of Souls",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        480
+      ]
+    },
+    {
+      "id": 13247,
+      "name": "Hellpuppy",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        480
+      ]
+    },
+    {
+      "id": 13249,
+      "name": "Key master teleport",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        480
+      ]
+    },
+    {
+      "id": 13256,
+      "name": "Saradomin's light",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        483
+      ]
+    },
+    {
+      "id": 13262,
+      "name": "Abyssal orphan",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        476
+      ]
+    },
+    {
+      "id": 13265,
+      "name": "Abyssal dagger",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        476
+      ]
+    },
+    {
+      "id": 13273,
+      "name": "Unsired",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        476
+      ]
+    },
+    {
+      "id": 13274,
+      "name": "Bludgeon spine",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        476
+      ]
+    },
+    {
+      "id": 13275,
+      "name": "Bludgeon claw",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        476
+      ]
+    },
+    {
+      "id": 13276,
+      "name": "Bludgeon axon",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        476
+      ]
+    },
+    {
+      "id": 13277,
+      "name": "Jar of Miasma",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        476
+      ]
+    },
+    {
+      "id": 13652,
+      "name": "Dragon claws",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 19677,
+      "name": "Ancient shard",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        497
+      ]
+    },
+    {
+      "id": 19685,
+      "name": "Dark totem",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        497
+      ]
+    },
+    {
+      "id": 19701,
+      "name": "Jar of Darkness",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        497
+      ]
+    },
+    {
+      "id": 20011,
+      "name": "3rd Age axe",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 20014,
+      "name": "3rd Age pickaxe",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 20693,
+      "name": "Phoenix",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        504
+      ]
+    },
+    {
+      "id": 20704,
+      "name": "Pyromancer garb",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        504
+      ]
+    },
+    {
+      "id": 20706,
+      "name": "Pyromancer robe",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        504
+      ]
+    },
+    {
+      "id": 20708,
+      "name": "Pyromancer hood",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        504
+      ]
+    },
+    {
+      "id": 20710,
+      "name": "Pyromancer boots",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        504
+      ]
+    },
+    {
+      "id": 20712,
+      "name": "Warm gloves",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        504
+      ]
+    },
+    {
+      "id": 20716,
+      "name": "Tome of Fire (empty)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        504
+      ]
+    },
+    {
+      "id": 20718,
+      "name": "Burnt page",
+      "pet": false,
+      "targetLimit": 65535,
+      "pageIds": [
+        504
+      ]
+    },
+    {
+      "id": 20720,
+      "name": "Bruma torch",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        504
+      ]
+    },
+    {
+      "id": 20756,
+      "name": "Hill giant club",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        495
+      ]
+    },
+    {
+      "id": 20849,
+      "name": "Dragon thrownaxe",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        539
+      ]
+    },
+    {
+      "id": 20851,
+      "name": "Olmlet",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 20997,
+      "name": "Twisted bow",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21000,
+      "name": "Twisted buckler",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21003,
+      "name": "Elder maul",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21012,
+      "name": "Dragon hunter crossbow",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21015,
+      "name": "Dinh's bulwark",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21018,
+      "name": "Ancestral hat",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21021,
+      "name": "Ancestral robe top",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21024,
+      "name": "Ancestral robe bottom",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21027,
+      "name": "Dark relic",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21028,
+      "name": "Dragon harpoon",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2867
+      ]
+    },
+    {
+      "id": 21034,
+      "name": "Dexterous prayer scroll",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21043,
+      "name": "Kodai insignia",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21047,
+      "name": "Torn prayer scroll",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21079,
+      "name": "Arcane prayer scroll",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 21273,
+      "name": "Skotos",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        497
+      ]
+    },
+    {
+      "id": 21275,
+      "name": "Dark claw",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        497
+      ]
+    },
+    {
+      "id": 21291,
+      "name": "Jal-Nib-Rek",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        499
+      ]
+    },
+    {
+      "id": 21295,
+      "name": "Infernal cape",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        499
+      ]
+    },
+    {
+      "id": 21726,
+      "name": "Granite dust",
+      "pet": false,
+      "targetLimit": 65535,
+      "pageIds": [
+        489,
+        1203
+      ]
+    },
+    {
+      "id": 21730,
+      "name": "Black tourmaline core",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        489
+      ]
+    },
+    {
+      "id": 21736,
+      "name": "Granite gloves",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        489
+      ]
+    },
+    {
+      "id": 21739,
+      "name": "Granite ring",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        489
+      ]
+    },
+    {
+      "id": 21742,
+      "name": "Granite hammer",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        489
+      ]
+    },
+    {
+      "id": 21745,
+      "name": "Jar of Stone",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        489
+      ]
+    },
+    {
+      "id": 21748,
+      "name": "Noon",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        489
+      ]
+    },
+    {
+      "id": 21907,
+      "name": "Vorkath's head",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        503
+      ]
+    },
+    {
+      "id": 21992,
+      "name": "Vorki",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        503
+      ]
+    },
+    {
+      "id": 22006,
+      "name": "Skeletal visage",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        503
+      ]
+    },
+    {
+      "id": 22106,
+      "name": "Jar of Decay",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        503
+      ]
+    },
+    {
+      "id": 22111,
+      "name": "Dragonbone necklace",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        503
+      ]
+    },
+    {
+      "id": 22324,
+      "name": "Ghrazi rapier",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22326,
+      "name": "Justiciar faceguard",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22327,
+      "name": "Justiciar chestguard",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22328,
+      "name": "Justiciar legguards",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22372,
+      "name": "Bryophyta's essence",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        478
+      ]
+    },
+    {
+      "id": 22386,
+      "name": "Metamorphic dust",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 22388,
+      "name": "Xeric's guard",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 22390,
+      "name": "Xeric's warrior",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 22392,
+      "name": "Xeric's sentinel",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 22394,
+      "name": "Xeric's general",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 22396,
+      "name": "Xeric's champion",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 22446,
+      "name": "Vial of blood",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22473,
+      "name": "Lil' Zik",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22477,
+      "name": "Avernic defender hilt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22481,
+      "name": "Sanguinesti staff (uncharged)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22486,
+      "name": "Scythe of Vitur (uncharged)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22494,
+      "name": "Sinhaza shroud tier 1",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22496,
+      "name": "Sinhaza shroud tier 2",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22498,
+      "name": "Sinhaza shroud tier 3",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22500,
+      "name": "Sinhaza shroud tier 4",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22502,
+      "name": "Sinhaza shroud tier 5",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 22746,
+      "name": "Ikkle Hydra",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        539
+      ]
+    },
+    {
+      "id": 22804,
+      "name": "Dragon knife",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        539
+      ]
+    },
+    {
+      "id": 22881,
+      "name": "Attas seed",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        541
+      ]
+    },
+    {
+      "id": 22883,
+      "name": "Iasor seed",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        541
+      ]
+    },
+    {
+      "id": 22885,
+      "name": "Kronos seed",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        541
+      ]
+    },
+    {
+      "id": 22966,
+      "name": "Hydra's claw",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        539
+      ]
+    },
+    {
+      "id": 22969,
+      "name": "Hydra's heart",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        539
+      ]
+    },
+    {
+      "id": 22971,
+      "name": "Hydra's fang",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        539
+      ]
+    },
+    {
+      "id": 22973,
+      "name": "Hydra's eye",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        539
+      ]
+    },
+    {
+      "id": 22983,
+      "name": "Hydra leather",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        539
+      ]
+    },
+    {
+      "id": 22988,
+      "name": "Hydra tail",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        539
+      ]
+    },
+    {
+      "id": 22994,
+      "name": "Bottomless compost bucket",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        541
+      ]
+    },
+    {
+      "id": 23064,
+      "name": "Jar of Chemicals",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        539
+      ]
+    },
+    {
+      "id": 23077,
+      "name": "Alchemical hydra heads",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        539
+      ]
+    },
+    {
+      "id": 23185,
+      "name": "Ring of 3rd Age",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        511,
+        512
+      ]
+    },
+    {
+      "id": 23242,
+      "name": "3rd Age plateskirt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 23336,
+      "name": "3rd Age druidic robe top",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 23339,
+      "name": "3rd Age druidic robe bottoms",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 23342,
+      "name": "3rd Age druidic staff",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 23345,
+      "name": "3rd Age druidic cloak",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2871
+      ]
+    },
+    {
+      "id": 23495,
+      "name": "Sraracha",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        601
+      ]
+    },
+    {
+      "id": 23517,
+      "name": "Giant egg sac(full)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        601
+      ]
+    },
+    {
+      "id": 23525,
+      "name": "Jar of Eyes",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        601
+      ]
+    },
+    {
+      "id": 23528,
+      "name": "Sarachnis cudgel",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        601
+      ]
+    },
+    {
+      "id": 23757,
+      "name": "Youngllef",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        605
+      ]
+    },
+    {
+      "id": 23760,
+      "name": "Smolcano",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        604
+      ]
+    },
+    {
+      "id": 23859,
+      "name": "Gauntlet cape",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        605
+      ]
+    },
+    {
+      "id": 23908,
+      "name": "Zalcano shard",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        604
+      ]
+    },
+    {
+      "id": 23953,
+      "name": "Crystal tool seed",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        604
+      ]
+    },
+    {
+      "id": 23956,
+      "name": "Crystal armour seed",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        605
+      ]
+    },
+    {
+      "id": 24417,
+      "name": "Inquisitor's mace",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1263
+      ]
+    },
+    {
+      "id": 24419,
+      "name": "Inquisitor's great helm",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1263
+      ]
+    },
+    {
+      "id": 24420,
+      "name": "Inquisitor's hauberk",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1263
+      ]
+    },
+    {
+      "id": 24421,
+      "name": "Inquisitor's plateskirt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1263
+      ]
+    },
+    {
+      "id": 24422,
+      "name": "Nightmare staff",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1263
+      ]
+    },
+    {
+      "id": 24491,
+      "name": "Little Nightmare",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        1263
+      ]
+    },
+    {
+      "id": 24495,
+      "name": "Jar of Dreams",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1263
+      ]
+    },
+    {
+      "id": 24511,
+      "name": "Harmonised orb",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1263
+      ]
+    },
+    {
+      "id": 24514,
+      "name": "Volatile orb",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1263
+      ]
+    },
+    {
+      "id": 24517,
+      "name": "Eldritch orb",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1263
+      ]
+    },
+    {
+      "id": 24670,
+      "name": "Twisted ancestral colour kit",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        507
+      ]
+    },
+    {
+      "id": 25521,
+      "name": "Jar of Spirits",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        484
+      ]
+    },
+    {
+      "id": 25524,
+      "name": "Jar of Smoke",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        498
+      ]
+    },
+    {
+      "id": 25559,
+      "name": "Big harpoonfish",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2867
+      ]
+    },
+    {
+      "id": 25576,
+      "name": "Tome of Water (empty)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2867
+      ]
+    },
+    {
+      "id": 25578,
+      "name": "Soaked page",
+      "pet": false,
+      "targetLimit": 65535,
+      "pageIds": [
+        2867
+      ]
+    },
+    {
+      "id": 25580,
+      "name": "Tackle box",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2867
+      ]
+    },
+    {
+      "id": 25582,
+      "name": "Fish barrel",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        2867
+      ]
+    },
+    {
+      "id": 25588,
+      "name": "Spirit flakes",
+      "pet": false,
+      "targetLimit": 65535,
+      "pageIds": [
+        2867
+      ]
+    },
+    {
+      "id": 25592,
+      "name": "Spirit angler headband",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        2867
+      ]
+    },
+    {
+      "id": 25594,
+      "name": "Spirit angler top",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        2867
+      ]
+    },
+    {
+      "id": 25596,
+      "name": "Spirit angler waders",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        2867
+      ]
+    },
+    {
+      "id": 25598,
+      "name": "Spirit angler boots",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        2867
+      ]
+    },
+    {
+      "id": 25602,
+      "name": "Tiny tempor",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        2867
+      ]
+    },
+    {
+      "id": 25742,
+      "name": "Holy ornament kit",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 25744,
+      "name": "Sanguine ornament kit",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 25746,
+      "name": "Sanguine dust",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        506
+      ]
+    },
+    {
+      "id": 25837,
+      "name": "Slepey tablet",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        1263
+      ]
+    },
+    {
+      "id": 25838,
+      "name": "Parasitic egg",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        1263
+      ]
+    },
+    {
+      "id": 25859,
+      "name": "Enhanced crystal weapon seed",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        605
+      ]
+    },
+    {
+      "id": 25975,
+      "name": "Lightbearer",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 25985,
+      "name": "Elidinis' ward",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 26219,
+      "name": "Osmumten's fang",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 26231,
+      "name": "Nihil shard",
+      "pet": false,
+      "targetLimit": 65535,
+      "pageIds": [
+        3769
+      ]
+    },
+    {
+      "id": 26235,
+      "name": "Zaryte vambraces",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        3769
+      ]
+    },
+    {
+      "id": 26241,
+      "name": "Virtus mask",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4652,
+        4653,
+        4654,
+        4655
+      ]
+    },
+    {
+      "id": 26243,
+      "name": "Virtus robe top",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4652,
+        4653,
+        4654,
+        4655
+      ]
+    },
+    {
+      "id": 26245,
+      "name": "Virtus robe bottom",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4652,
+        4653,
+        4654,
+        4655
+      ]
+    },
+    {
+      "id": 26348,
+      "name": "Nexling",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        3769
+      ]
+    },
+    {
+      "id": 26370,
+      "name": "Ancient hilt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        3769
+      ]
+    },
+    {
+      "id": 26372,
+      "name": "Nihil horn",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        3769
+      ]
+    },
+    {
+      "id": 26376,
+      "name": "Torva full helm (damaged)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        3769
+      ]
+    },
+    {
+      "id": 26378,
+      "name": "Torva platebody (damaged)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        3769
+      ]
+    },
+    {
+      "id": 26380,
+      "name": "Torva platelegs (damaged)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        3769
+      ]
+    },
+    {
+      "id": 27226,
+      "name": "Masori mask",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27229,
+      "name": "Masori body",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27232,
+      "name": "Masori chaps",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27248,
+      "name": "Cursed phalanx",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27255,
+      "name": "Menaphite ornament kit",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27257,
+      "name": "Icthlarin's shroud (tier 1)",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27259,
+      "name": "Icthlarin's shroud (tier 2)",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27261,
+      "name": "Icthlarin's shroud (tier 3)",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27263,
+      "name": "Icthlarin's shroud (tier 4)",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27265,
+      "name": "Icthlarin's shroud (tier 5)",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27277,
+      "name": "Tumeken's shadow (uncharged)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27279,
+      "name": "Thread of Elidinis",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27283,
+      "name": "Breach of the Scarab",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27285,
+      "name": "Eye of the Corruptor",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27289,
+      "name": "Jewel of the Sun",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27293,
+      "name": "Cache of runes",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27352,
+      "name": "Tumeken's guardian",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27372,
+      "name": "Masori crafting kit",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27377,
+      "name": "Remnant of Akkha",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27378,
+      "name": "Remnant of Ba-Ba",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27379,
+      "name": "Remnant of Kephri",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27380,
+      "name": "Remnant of Zebak",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27381,
+      "name": "Ancient remnant",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 27590,
+      "name": "Muphin",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        4455
+      ]
+    },
+    {
+      "id": 27614,
+      "name": "Venator shard",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4455
+      ]
+    },
+    {
+      "id": 27616,
+      "name": "Ancient essence",
+      "pet": false,
+      "targetLimit": 65535,
+      "pageIds": [
+        4455
+      ]
+    },
+    {
+      "id": 27622,
+      "name": "Frozen cache",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4455
+      ]
+    },
+    {
+      "id": 27627,
+      "name": "Ancient icon",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4455
+      ]
+    },
+    {
+      "id": 27643,
+      "name": "Charged ice",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4455
+      ]
+    },
+    {
+      "id": 27667,
+      "name": "Claws of Callisto",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        479
+      ]
+    },
+    {
+      "id": 27670,
+      "name": "Fangs of Venenatis",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        501
+      ]
+    },
+    {
+      "id": 27673,
+      "name": "Skull of Vet'ion",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        502
+      ]
+    },
+    {
+      "id": 27681,
+      "name": "Voidwaker hilt",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        479
+      ]
+    },
+    {
+      "id": 27684,
+      "name": "Voidwaker blade",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        502
+      ]
+    },
+    {
+      "id": 27687,
+      "name": "Voidwaker gem",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        501
+      ]
+    },
+    {
+      "id": 28246,
+      "name": "Wisp",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        4654
+      ]
+    },
+    {
+      "id": 28248,
+      "name": "Butch",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        4653
+      ]
+    },
+    {
+      "id": 28250,
+      "name": "Baron",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        4652
+      ]
+    },
+    {
+      "id": 28252,
+      "name": "Lil'viathan",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        4655
+      ]
+    },
+    {
+      "id": 28268,
+      "name": "Blood quartz",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4653
+      ]
+    },
+    {
+      "id": 28270,
+      "name": "Ice quartz",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4652
+      ]
+    },
+    {
+      "id": 28272,
+      "name": "Shadow quartz",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4654
+      ]
+    },
+    {
+      "id": 28274,
+      "name": "Smoke quartz",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4655
+      ]
+    },
+    {
+      "id": 28276,
+      "name": "Chromium ingot",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4652,
+        4653,
+        4654,
+        4655
+      ]
+    },
+    {
+      "id": 28279,
+      "name": "Bellator vestige",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4654
+      ]
+    },
+    {
+      "id": 28281,
+      "name": "Magus vestige",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4652
+      ]
+    },
+    {
+      "id": 28283,
+      "name": "Venator vestige",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4655
+      ]
+    },
+    {
+      "id": 28285,
+      "name": "Ultor vestige",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4653
+      ]
+    },
+    {
+      "id": 28319,
+      "name": "Executioner's axe head",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4653
+      ]
+    },
+    {
+      "id": 28321,
+      "name": "Eye of the Duke",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4652
+      ]
+    },
+    {
+      "id": 28323,
+      "name": "Siren's staff",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4654
+      ]
+    },
+    {
+      "id": 28325,
+      "name": "Leviathan's lure",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4655
+      ]
+    },
+    {
+      "id": 28330,
+      "name": "Strangled tablet",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4653
+      ]
+    },
+    {
+      "id": 28331,
+      "name": "Sirenic tablet",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4654
+      ]
+    },
+    {
+      "id": 28332,
+      "name": "Scarred tablet",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4655
+      ]
+    },
+    {
+      "id": 28333,
+      "name": "Frozen tablet",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4652
+      ]
+    },
+    {
+      "id": 28334,
+      "name": "Awakener's orb",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4652,
+        4653,
+        4654,
+        4655
+      ]
+    },
+    {
+      "id": 28798,
+      "name": "Scurrius' spine",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        777
+      ]
+    },
+    {
+      "id": 28801,
+      "name": "Scurry",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        777
+      ]
+    },
+    {
+      "id": 28919,
+      "name": "Tonalztics of Ralos (uncharged)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        909
+      ]
+    },
+    {
+      "id": 28924,
+      "name": "Sunfire splinters",
+      "pet": false,
+      "targetLimit": 65535,
+      "pageIds": [
+        909
+      ]
+    },
+    {
+      "id": 28933,
+      "name": "Sunfire fanatic helm",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        909
+      ]
+    },
+    {
+      "id": 28936,
+      "name": "Sunfire fanatic cuirass",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        909
+      ]
+    },
+    {
+      "id": 28939,
+      "name": "Sunfire fanatic chausses",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        909
+      ]
+    },
+    {
+      "id": 28942,
+      "name": "Echo crystal",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        909
+      ]
+    },
+    {
+      "id": 28947,
+      "name": "Dizana's quiver (uncharged)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        909
+      ]
+    },
+    {
+      "id": 28960,
+      "name": "Smol Heredit",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        909
+      ]
+    },
+    {
+      "id": 28988,
+      "name": "Blue Moon spear",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 28991,
+      "name": "Atlatl dart",
+      "pet": false,
+      "targetLimit": 65535,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 28997,
+      "name": "Dual macuahuitl",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 29000,
+      "name": "Eclipse atlatl",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 29004,
+      "name": "Eclipse Moon chestplate",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 29007,
+      "name": "Eclipse Moon tassets",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 29010,
+      "name": "Eclipse Moon helm",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 29013,
+      "name": "Blue Moon chestplate",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 29016,
+      "name": "Blue Moon tassets",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 29019,
+      "name": "Blue Moon helm",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 29022,
+      "name": "Blood Moon chestplate",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 29025,
+      "name": "Blood Moon tassets",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 29028,
+      "name": "Blood Moon helm",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        910
+      ]
+    },
+    {
+      "id": 29781,
+      "name": "Coagulated venom",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        995
+      ]
+    },
+    {
+      "id": 29782,
+      "name": "Spider cave teleport",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        995
+      ]
+    },
+    {
+      "id": 29784,
+      "name": "Araxyte venom sac",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        995
+      ]
+    },
+    {
+      "id": 29786,
+      "name": "Jar of Venom",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        995
+      ]
+    },
+    {
+      "id": 29788,
+      "name": "Araxyte head",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        995
+      ]
+    },
+    {
+      "id": 29790,
+      "name": "Noxious point",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        995
+      ]
+    },
+    {
+      "id": 29792,
+      "name": "Noxious blade",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        995
+      ]
+    },
+    {
+      "id": 29794,
+      "name": "Noxious pommel",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        995
+      ]
+    },
+    {
+      "id": 29799,
+      "name": "Araxyte fang",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        995
+      ]
+    },
+    {
+      "id": 29836,
+      "name": "Nid",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        995
+      ]
+    },
+    {
+      "id": 29889,
+      "name": "Glacial temotli",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1016
+      ]
+    },
+    {
+      "id": 29892,
+      "name": "Pendant of Ates (inert)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1016
+      ]
+    },
+    {
+      "id": 29895,
+      "name": "Frozen tear",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1016
+      ]
+    },
+    {
+      "id": 30066,
+      "name": "Tome of Earth (empty)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1015
+      ]
+    },
+    {
+      "id": 30068,
+      "name": "Soiled page",
+      "pet": false,
+      "targetLimit": 65535,
+      "pageIds": [
+        1015
+      ]
+    },
+    {
+      "id": 30070,
+      "name": "Dragon hunter wand",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1015
+      ]
+    },
+    {
+      "id": 30085,
+      "name": "Hueycoatl hide",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1015
+      ]
+    },
+    {
+      "id": 30088,
+      "name": "Huasca seed",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1015
+      ]
+    },
+    {
+      "id": 30152,
+      "name": "Huberte",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        1015
+      ]
+    },
+    {
+      "id": 30154,
+      "name": "Moxi",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        1016
+      ]
+    },
+    {
+      "id": 30622,
+      "name": "Bran",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        1743
+      ]
+    },
+    {
+      "id": 30626,
+      "name": "Deadeye prayer scroll",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1743
+      ]
+    },
+    {
+      "id": 30627,
+      "name": "Mystic vigour prayer scroll",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1743
+      ]
+    },
+    {
+      "id": 30628,
+      "name": "Ice element staff crown",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1743
+      ]
+    },
+    {
+      "id": 30631,
+      "name": "Fire element staff crown",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1743
+      ]
+    },
+    {
+      "id": 30637,
+      "name": "Giantsoul amulet (uncharged)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1743
+      ]
+    },
+    {
+      "id": 30640,
+      "name": "Desiccated page",
+      "pet": false,
+      "targetLimit": 65535,
+      "pageIds": [
+        1743
+      ]
+    },
+    {
+      "id": 30750,
+      "name": "Oathplate helm",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4736
+      ]
+    },
+    {
+      "id": 30753,
+      "name": "Oathplate chest",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4736
+      ]
+    },
+    {
+      "id": 30756,
+      "name": "Oathplate legs",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4736
+      ]
+    },
+    {
+      "id": 30759,
+      "name": "Soulflame horn",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4736
+      ]
+    },
+    {
+      "id": 30763,
+      "name": "Forgotten lockbox",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4736
+      ]
+    },
+    {
+      "id": 30765,
+      "name": "Oathplate shards",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4736
+      ]
+    },
+    {
+      "id": 30775,
+      "name": "Chasm teleport scroll",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4736
+      ]
+    },
+    {
+      "id": 30795,
+      "name": "Barrel of demonic tallow (full)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4736
+      ]
+    },
+    {
+      "id": 30803,
+      "name": "Dossier",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4736
+      ]
+    },
+    {
+      "id": 30806,
+      "name": "Rite of vile transference",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4736
+      ]
+    },
+    {
+      "id": 30888,
+      "name": "Yami",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        4736
+      ]
+    },
+    {
+      "id": 30893,
+      "name": "Jewel of Amascut",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4378
+      ]
+    },
+    {
+      "id": 30895,
+      "name": "Steel ring",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        4867
+      ]
+    },
+    {
+      "id": 30926,
+      "name": "Mimic scroll case",
+      "pet": false,
+      "targetLimit": 1,
+      "pageIds": [
+        4874
+      ]
+    },
+    {
+      "id": 31088,
+      "name": "Avernic treads",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        5029
+      ]
+    },
+    {
+      "id": 31099,
+      "name": "Mokhaiotl waystone",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        5029
+      ]
+    },
+    {
+      "id": 31109,
+      "name": "Mokhaiotl cloth",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        5029
+      ]
+    },
+    {
+      "id": 31111,
+      "name": "Demon tear",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        5029
+      ]
+    },
+    {
+      "id": 31115,
+      "name": "Eye of Ayak (uncharged)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        5029
+      ]
+    },
+    {
+      "id": 31130,
+      "name": "Dom",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        5029
+      ]
+    },
+    {
+      "id": 31235,
+      "name": "Gryphon feather",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        6337
+      ]
+    },
+    {
+      "id": 31245,
+      "name": "Belle's folly (tarnished)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        6337
+      ]
+    },
+    {
+      "id": 31285,
+      "name": "Gull",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        6337
+      ]
+    },
+    {
+      "id": 32921,
+      "name": "Jar of Feathers",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        6337
+      ]
+    },
+    {
+      "id": 33091,
+      "name": "Bottomless milk bucket (empty)",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        6413
+      ]
+    },
+    {
+      "id": 33093,
+      "name": "Cow slippers",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        6413
+      ]
+    },
+    {
+      "id": 33101,
+      "name": "Mooleta",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        6413
+      ]
+    },
+    {
+      "id": 33124,
+      "name": "Beef",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        6413
+      ]
+    },
+    {
+      "id": 33133,
+      "name": "Pristine spider silk",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        601
+      ]
+    },
+    {
+      "id": 33382,
+      "name": "Immaculate mole skin",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        488
+      ]
+    },
+    {
+      "id": 33631,
+      "name": "Crimson kisten",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1189
+      ]
+    },
+    {
+      "id": 33634,
+      "name": "Elder venator fang",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1189
+      ]
+    },
+    {
+      "id": 33642,
+      "name": "Maggot marquess",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        1189
+      ]
+    },
+    {
+      "id": 34027,
+      "name": "Hallowfell",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1203
+      ]
+    },
+    {
+      "id": 34030,
+      "name": "Jar of Light",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1203
+      ]
+    },
+    {
+      "id": 34033,
+      "name": "Ardeaglais teleport",
+      "pet": false,
+      "targetLimit": 250,
+      "pageIds": [
+        1203
+      ]
+    },
+    {
+      "id": 34042,
+      "name": "Aggy",
+      "pet": true,
+      "targetLimit": 250,
+      "pageIds": [
+        1203
+      ]
+    }
+  ],
+  "targetPolicy": "Conservative plugin target limits; not a claim about native collection-log counter caps."
+}

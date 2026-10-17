@@ -1,0 +1,11 @@
+.gradle/
+build/
+out/
+.idea/
+*.iml
+.local/
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,51 @@
+name: Verify plugin
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 9 * * 5'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        client: [pinned, hub-current]
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '11'
+          cache: gradle
+          cache-read-only: ${{ github.event_name == 'pull_request' }}
+      - name: Select Plugin Hub version
+        if: matrix.client == 'hub-current'
+        run: |
+          python3 - <<'PY'
+          import os, re, urllib.request
+          with urllib.request.urlopen('https://raw.githubusercontent.com/runelite/plugin-hub/master/runelite.version', timeout=30) as response:
+              version = response.read().decode().strip()
+          if not re.fullmatch(r'\d+\.\d+\.\d+(?:\.\d+)?', version):
+              raise ValueError('Unexpected Plugin Hub version')
+          with open(os.environ['GITHUB_ENV'], 'a') as env:
+              env.write('ORG_GRADLE_PROJECT_runeLiteVersion=' + version + '\n')
+          print('Plugin Hub client:', version)
+          PY
+      - name: Build, tests, source contracts, and release package
+        run: bash ./gradlew --no-daemon check verifyRelease
+      - name: Catalogue generator tests
+        run: python3 -m unittest discover -s tools/tests -v

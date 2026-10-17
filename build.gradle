@@ -1,0 +1,108 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        url = 'https://repo.runelite.net'
+        content { includeGroupByRegex('net\\.runelite.*') }
+    }
+    mavenCentral()
+}
+
+def runeLiteVersion = providers.gradleProperty('runeLiteVersion').getOrElse('1.13.2')
+
+group = 'com.mygoals'
+version = '1.0.0'
+
+// The Windows helper can keep generated files outside OneDrive's file locks.
+if (providers.gradleProperty('myGoalsBuildDir').isPresent()) {
+    layout.buildDirectory = file(providers.gradleProperty('myGoalsBuildDir').get())
+}
+
+dependencies {
+    compileOnly "net.runelite:client:${runeLiteVersion}"
+    testImplementation "net.runelite:client:${runeLiteVersion}"
+    testImplementation 'junit:junit:4.13.2'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release.set(11)
+}
+
+test {
+    useJUnit()
+    systemProperty 'java.awt.headless', 'true'
+}
+
+tasks.register('run', JavaExec) {
+    group = 'application'
+    description = 'Run RuneLite with Advanced Goal Pacer.'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.mygoals.MyGoalsPluginTest'
+    jvmArgs '-ea'
+    args '--developer-mode'
+    // Keep development config/session/cache separate from the user's installed client.
+    systemProperty 'user.home', providers.gradleProperty('myGoalsDevHome').getOrElse(file('.local/dev-home').absolutePath)
+    args '--disable-telemetry', '--noupdate'
+}
+
+tasks.register('runDiagnostics', JavaExec) {
+    group = 'application'
+    description = 'Run the optional source diagnostics used for catalogue maintenance.'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.mygoals.MyGoalsDiagnosticsTest'
+    jvmArgs '-ea'
+    args '--developer-mode', '--debug', '--disable-telemetry', '--noupdate'
+    systemProperty 'user.home', providers.gradleProperty('myGoalsDevHome').getOrElse(file('.local/dev-home').absolutePath)
+}
+
+tasks.register('launcherCheck', JavaExec) {
+    group = 'verification'
+    description = 'Load the developer launcher and validate its RuneLite command line.'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.mygoals.MyGoalsPluginTest'
+    jvmArgs '-ea'
+    args '--help'
+}
+
+tasks.register('sourceReport', JavaExec) {
+    group = 'verification'
+    description = 'Audit RuneLite metric and notification API contracts without a game login.'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.mygoals.maintenance.SourceContractReport'
+    args layout.buildDirectory.file('reports/api/source-contract.json').get().asFile.absolutePath
+}
+
+tasks.named('check') { dependsOn 'sourceReport' }
+
+tasks.register('verifyRelease', JavaExec) {
+    group = 'verification'
+    description = 'Inspect release metadata, packaged contents, icon, bytecode, and runtime API restrictions.'
+    dependsOn 'jar', 'test'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.mygoals.maintenance.ReleasePackageCheck'
+    systemProperty 'java.awt.headless', 'true'
+    args tasks.named('jar').flatMap { it.archiveFile }.get().asFile.absolutePath, projectDir.absolutePath, project.version.toString()
+}
+
+tasks.register('uiPreview', JavaExec) {
+    group = 'verification'
+    description = 'Render the real Swing sidebar with synthetic test-only data.'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.mygoals.ui.SidebarPreview'
+    systemProperty 'java.awt.headless', 'true'
+    args layout.buildDirectory.dir('reports/ui').get().asFile.absolutePath
+}
+
+tasks.register('nativeUiPreview', JavaExec) {
+    group = 'verification'
+    description = 'Render synthetic editor panels with real item sprites in a separate logged-out client, then exit.'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.mygoals.ui.NativeEditorPreview'
+    jvmArgs '-ea'
+    systemProperty 'user.home', layout.buildDirectory.get().asFile.parentFile.toPath().resolve('native-preview-home').toString()
+    args layout.buildDirectory.dir('reports/ui').get().asFile.absolutePath, '--developer-mode', '--disable-telemetry', '--noupdate'
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <title>P4 with square calendar corners and thin gray progress border</title>
+  <g fill="none" stroke="#bdbdbd" stroke-width="1.25">
+    <rect x="2" y="4" width="20" height="18"/>
+    <path d="M2 7h20"/>
+  </g>
+  <path d="M7 3v2m10-2v2" fill="none" stroke="#bdbdbd" stroke-width="1.5" stroke-linecap="round"/>
+  <path fill="#414141" d="M4.5 12.5h15V17h-15Z"/>
+  <path fill="#66cc80" d="M4.5 12.5h10V17h-10Z"/>
+  <rect x="4.5" y="12.5" width="15" height="4.5" fill="none" stroke="#999999" stroke-width="0.5"/>
+</svg>

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "profileKey": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "scope": "standard",
+  "saveSequence": 7,
+  "savedAt": 1792166400000,
+  "goals": {
+    "00000000-0000-0000-0000-000000000001": {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "revision": 1,
+      "spec": {
+        "name": "Mining XP", "groupId": "00000000-0000-0000-0000-000000000002", "skill": "MINING",
+        "mode": "GAIN", "cadence": "DAILY", "amount": 200, "level": 0,
+        "startDate": "2026-10-16", "endDate": null, "zone": "America/Chicago"
+      },
+      "pending": null, "pendingEffectiveDate": null,
+      "createdAt": 1792166400000, "trackingStartedAt": 1792166400000, "baselineXp": 100000,
+      "lifecycle": "ACTIVE", "achievedDate": null,
+      "current": {
+        "id": "2026-10-16:1", "start": "2026-10-16", "endExclusive": "2026-10-17",
+        "zone": "America/Chicago", "revision": 1, "target": 200, "live": 267, "recovered": 0, "closed": false
+      },
+      "history": [],
+      "plans": {
+        "2026-10-16:1@America/Chicago@2026-10-16": {"date": "2026-10-16", "periodId": "2026-10-16:1", "assigned": 200, "credited": 267}
+      }
+    }
+  },
+  "groups": [{"id": "00000000-0000-0000-0000-000000000002", "name": "Skilling", "collapsed": true}],
+  "xp": {"MINING": 100267},
+  "activity": {
+    "2026-10-16:MINING:Live": {
+      "date": "2026-10-16", "skill": "MINING", "source": "Live", "amount": 267,
+      "goalCredits": {"00000000-0000-0000-0000-000000000001:2026-10-16:1": 267}
+    }
+  }
+}
